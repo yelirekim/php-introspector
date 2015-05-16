@@ -1,0 +1,22 @@
+{
+  "name": "php-introspector",
+  "main": "./lib/php-introspector",
+  "version": "0.1.0",
+  "description": "Autocomplete for PHP based on reflecting / parsing your code.",
+  "repository": "https://github.com/yelirekim/php-introspector",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^1.1.0",
+    "request-promise": "^0.4.2"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "provide"
+      }
+    }
+  }
+}
